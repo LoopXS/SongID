@@ -1,4 +1,4 @@
-print('        _ _  ---====  SongID  ====---  _ _\n')
+print('        _ _  ---====  Music Finder  ====---  _ _\n')
 
 
 from SongIDProcessor import SIDProcessor
@@ -10,7 +10,7 @@ from threading import Thread
 import urllib.request  # Check for internet connectivity
 
 
-os.system(f'title _ _  ---====  SongID {ver}  ====---  _ _')  # Set the windows console window title
+os.system(f'title _ _  ---====  Music Finder {ver}  ====---  _ _')  # Set the windows console window title
 
 while True:
     try:
@@ -140,22 +140,20 @@ Key Features:
 - Direct links to services such as <b>Youtube</b>, <b>Spotify</b> and <b>Deezer</b>
 <i>[20MB file size limit]</i>
 
-To get started, upload a file or record a Telegram Audio Message''')
+To get started, upload a file or record a Telegram Audio Message
+
+Support: @DarkPentester''')
     devsend(update, context, '\'{update.message.text}\'')
     logbot(update, '*Sent \'/start\' response*')
 
 def limitCMD(update, context):
     logusr(update)
-    botsend(update, context, '''Running SongID isn't free, and to keep costs low, we limit our daily API requests (comparing your audio to a third party music fingerprint database). 
+    botsend(update, context, '''Running bot isn't free, and to keep costs low, we limit our daily API requests (comparing your audio to a third party music fingerprint database). 
 
 Unfortunately, we've hit that limit today, and we're sorry for any inconvenience in being unable to process your request.
 Please try again tomorrow.
 
 In the meantime, you could try using other music identification services such as "Shazam" and "Sound Hound". Unfortunately these services don't support sending videos or audio files and can only identify music with your microphone.
-
-SongID was originally created as a proof of concept, and I had no idea that it would become this popular.
-
-View SongID and my other projects here: github.com/smcclennon
 ''')
     devsend(update, context, '\'{update.message.text}\'')
     logbot(update, '*Sent \'/limit\' response*')
@@ -173,9 +171,9 @@ def helpCMD(update, context):
     logusr(update)
     botsend(update, context, f'''--= How to use {botName} =--
 
-1. Send us a file: We will scan the file for music
+1. Send me a file: I will scan the file for music
 
----> You can send us an audio/video file on your device by pressing the paperclip icon in the bottom left
+---> You can send me an audio/video file on your device by pressing the paperclip icon in the bottom left
 ---> Record a Telegram audio message with the microphone icon in the bottom right and capture music playing around you.
 
 File size limit: 20MB
