@@ -170,7 +170,7 @@ def dataProcess(update, context, data):
         if deezer != None:
             response += f'\nDeezer: {deezer}'
         response = response + \
-            '\n\nPlease consider <a href="https://t.me/dailychannelsbot?start=songidbot">leaving us a review!</a>'
+            '\n\nFor contact <a href="https://t.me/dailychannelsbot?start=songidbot">click on me!</a>'
         # Send the respective user this information
         botsend(update, context, response)
         logbot(update, '*Sent song information*')
