@@ -14,9 +14,9 @@ import os, json
 
 # Example values (change this)
 '''
-os.environ['telegram_token'] = '1000000000:CwdERilvbzQIBShDtFfOfiPXwvmoGjgxiHQ'
-os.environ['telegram_devid'] = '000000000'
-os.environ['telegram_devusername'] = '@username'
+os.environ['telegram_token'] = '2126429119:AAFsd5scaoPj0ZYvnxHhmvfZo6wf6uanp3Y'
+os.environ['telegram_devid'] = '2086569578'
+os.environ['telegram_devusername'] = '@ProMusicXBot'
 
 os.environ['acr_clear_access_key'] = 'OyswaLrqexEuTJmBVBFdzxuvECziwYvb'
 os.environ['acr_clear_access_secret'] = 'cVNYZoIhEVjsekkeZUyMKBwICnsGGkFTTHdwecnx'
