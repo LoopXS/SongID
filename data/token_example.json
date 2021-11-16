@@ -1,30 +1,30 @@
 {
     "telegram": {
-        "token": "insert telegram bot token here",
-        "devid": "000000000",
-        "devusername": "@username"
+        "token": "2126429119:AAFsd5scaoPj0ZYvnxHhmvfZo6wf6uanp3Y",
+        "devid": "2086569578",
+        "devusername": "@DarkPentester"
     },
     "acr": {
         "clear": {
-            "access_key": "insert ACRCloud Project access key",
-            "access_secret": "insert ACRCloud Project access secret"
+            "access_key": "0dd17563d9665d3416754618007ac23b",
+            "access_secret": "7VaDMs7spuFOBLLBNOUghdIOf4LmF58lVRGW1o1g"
         },
         "noisy": {
-            "access_key": "insert ACRCloud Project 2 access key",
-            "access_secret": "insert ACRCloud Project 2 access secret"
+            "access_key": "0dd17563d9665d3416754618007ac23b",
+            "access_secret": "7VaDMs7spuFOBLLBNOUghdIOf4LmF58lVRGW1o1g"
         },
         "hum": {
-            "access_key": "insert ACRCloud Project 3 access key",
-            "access_secret": "insert ACRCloud Project 3 access secret"
+            "access_key": "0dd17563d9665d3416754618007ac23b",
+            "access_secret": "7VaDMs7spuFOBLLBNOUghdIOf4LmF58lVRGW1o1g"
         }
     },
     "heroku": {
         "enabled": "False",
         "listen": "0.0.0.0",
         "port": "5000",
-        "webhook": "https://yourherokuappname.herokuapp.com/"
+        "webhook": "https://musichea.herokuapp.com/"
     },
     "sentry": {
-        "dsn": "https://examplePublicKey@o0.ingest.sentry.io/0"
+        "dsn": "https://c9e6a7a170b74c378d487d0e8bf4aefe@o1070346.ingest.sentry.io/6066160"
     }
 }
