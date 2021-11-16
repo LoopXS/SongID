@@ -18,14 +18,14 @@ os.environ['telegram_token'] = '2126429119:AAFsd5scaoPj0ZYvnxHhmvfZo6wf6uanp3Y'
 os.environ['telegram_devid'] = '2086569578'
 os.environ['telegram_devusername'] = '@ProMusicXBot'
 
-os.environ['acr_clear_access_key'] = 'lMnjbV59o03dUSSV'
-os.environ['acr_clear_access_secret'] = 'TEsIAytrcTy4utFXd6rY4g85qTuWtQEw'
+os.environ['acr_clear_access_key'] = '0dd17563d9665d3416754618007ac23b'
+os.environ['acr_clear_access_secret'] = '7VaDMs7spuFOBLLBNOUghdIOf4LmF58lVRGW1o1g'
 
-os.environ['acr_noisy_access_key'] = 'lMnjbV59o03dUSSV'
-os.environ['acr_noisy_access_secret'] = 'TEsIAytrcTy4utFXd6rY4g85qTuWtQEw'
+os.environ['acr_noisy_access_key'] = '0dd17563d9665d3416754618007ac23b'
+os.environ['acr_noisy_access_secret'] = '7VaDMs7spuFOBLLBNOUghdIOf4LmF58lVRGW1o1g'
 
-os.environ['acr_hum_access_key'] = 'lMnjbV59o03dUSSV'
-os.environ['acr_hum_access_secret'] = 'TEsIAytrcTy4utFXd6rY4g85qTuWtQEw'
+os.environ['acr_hum_access_key'] = '0dd17563d9665d3416754618007ac23b'
+os.environ['acr_hum_access_secret'] = '7VaDMs7spuFOBLLBNOUghdIOf4LmF58lVRGW1o1g'
 '''
 
 
