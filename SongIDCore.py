@@ -4,10 +4,10 @@ import sentry_sdk
 
 
 ver='0.2.3'
-botName=f'SongID'
+botName=f'Music Finder'
 botVer=f'{botName} {ver}'
-botAt=f'@SongIDBot'
-botUsername='SongIDbot'
+botAt=f'@ProMusicXBot'
+botUsername='ProMusicXBot'
 downloadDIR='data/downloads'
 
 
